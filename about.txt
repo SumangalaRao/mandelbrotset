@@ -1,0 +1,28 @@
+A brief description about mandelbrotset
+
+what is mandelbrot set?
+Mandelbrot set is a particular set of complex numbers which has a highly convoluted fractal boundary when plotted.A fractal is a curve
+or geometrical figure,each part of which has the same statistical character as the whole. 
+
+The Mandelbrot set has some special properties that make it quite interesting:
+1.The Mandelbrot set is connected,that is,there's always a path from one point of the set to another point of the set so that
+all the points in the path are also in the set. This means that there are no disconnected "islands".
+(This property can be used to speed-up the calculation with specialized algorithms.)
+2.The area of the set is finite (it fits inside a circle of radius 2; the exact area has only been approximated),but the length 
+of its border is infinite.If you take any part of the border of the set, the length of this part will also be infinite.
+This means that the border of theset has "infinite details", that is, you'll never find a place where the border is smooth,
+with a finite length(when calculating the set with a program you can get images where it seems that the border is smooth, 
+but that's always caused because a too low iteration amount and/or image resolution is used).
+3.last property is that one can zoom into any part of the border of the set and always get something to see (as long as you 
+have enough resolution, you make enough iterations and your numbers don't overflow/underflow).
+Mathematically the set is defined to have a dimension which is larger than 2 but smaller than 3 (that is a fractional dimension,
+hence the term "fractal").
+The Mandelbrot set has also many visually appealing properties which are harder to explain. The border of the set is not random,
+but the shapes formed by it are visually very appealing, usually quite organic-looking.The border of the set is also infinitely 
+rich in details, which means that you will always get something new if you start to zoom to a certain point. The internet is 
+full of images of the Mandelbrot set; they are countless.
+it is a mystery as how the function,Zn+1=(Zn*Zn)+c can give such richness in details,One could suppose that this kind of formula 
+would give either a smooth and regular shape or just random points.
+application:
+	They are useful in modeling structures in which similar patterns recur at progressively smaller scales,
+and in describing partly random or chaotic phenomena such as crystal growth and galaxy formation.
