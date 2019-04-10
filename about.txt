@@ -10,8 +10,8 @@ all the points in the path are also in the set. This means that there are no dis
 (This property can be used to speed-up the calculation with specialized algorithms.)
 2.The area of the set is finite (it fits inside a circle of radius 2; the exact area has only been approximated),but the length 
 of its border is infinite.If you take any part of the border of the set, the length of this part will also be infinite.
-This means that the border of theset has "infinite details", that is, you'll never find a place where the border is smooth,
-with a finite length(when calculating the set with a program you can get images where it seems that the border is smooth, 
+This means that the border of the set has "infinite details", that is, you'll never find a place where the border is smooth,
+with a finite length(when calculating the set with a program one can get images where it seems that the border is smooth, 
 but that's always caused because a too low iteration amount and/or image resolution is used).
 3.last property is that one can zoom into any part of the border of the set and always get something to see (as long as you 
 have enough resolution, you make enough iterations and your numbers don't overflow/underflow).
